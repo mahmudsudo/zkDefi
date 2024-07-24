@@ -25,5 +25,6 @@ export class Lend extends SmartContract {
 }
 
 class Position extends Struct({amount : Field , realized_pnl :Field}){
-    Position(amount :Field, realized_pnl:Field ){}
+    
 }
+
