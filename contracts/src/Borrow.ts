@@ -5,7 +5,7 @@ import {
        State,
        method,
        Struct,
-       MerkleMap,TokenContractV2,AccountUpdate
+       MerkleMap,TokenContractV2,UInt64
 } from 'o1js';
 
 export class Borrow extends SmartContract {
@@ -17,8 +17,12 @@ export class Borrow extends SmartContract {
        }
 
        // supports Mina/Usdt at the mvp stage
-       @method async depositCollateral( asset :TokenContractV2,  amount :Field)  {
-           
+       @method async depositCollateral( asset :TokenContractV2,  amount :UInt64)  {
+           asset.internal.send({from : this.sender.self.address,to :this.address,  amount})
+       
+          }
+          @method async borrow(){
+          
           }
 }
 
