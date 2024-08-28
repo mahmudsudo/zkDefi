@@ -8,7 +8,7 @@ import {
     Struct,
 } from 'o1js';
 
-export class Lend extends SmartContract {
+export class LendingPool extends SmartContract {
     @state(Field) num = State<Field>();
 
     init() {
@@ -24,5 +24,7 @@ export class Lend extends SmartContract {
 
 }
 
-
+class Position extends Struct({amount : Field , realized_pnl :Field}){
+    
+}
 

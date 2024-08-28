@@ -1,4 +1,5 @@
-// import { lend } from './lend';
+// import { LendingPool } from './LendingPool';
+
 mport { assert } from 'chai';
 import LendingPool from './LendingPool';
 
