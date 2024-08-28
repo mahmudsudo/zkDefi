@@ -21,5 +21,5 @@ describe('LendingPool', () => {
     assert.equal(actualInterest, expectedInterest);
   });
 
-  // ... other unit tests
+  
 });
