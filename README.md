@@ -1,4 +1,4 @@
-A decentralised advanced lending and borrowing protocol with privacy based superpower 
+A decentralised advanced lending and borrowing protocol with privacy based superpower on the mina protocol
 
 This protocol is presently under active development and has implemented the lending and borrowing pools and data flows
 
